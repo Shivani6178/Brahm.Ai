@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://brahm-ai-server.vercel.app/api/",
+  baseURL: "https://brahm-ai-server.vercel.app",
 });
 
 export const GetPosts = async () => await API.get("/post/");
